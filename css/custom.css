@@ -36,10 +36,6 @@ body {
   padding-top: 44px;
 }
 
-.links-list {
-  width: 150px;
-}
-
 .links-list ul li {
   padding-left: 20px;
   margin-bottom: 3px;
@@ -58,16 +54,6 @@ body {
   font-weight: bold;
 }
 
-#locales {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-}
-
-#locales .locale {
-  float: left;
-}
-
 #player {
   z-index: -1;
   position: absolute;
@@ -75,4 +61,36 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.links {
+  width: 240px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.links img {
+  width: 48px;
+  height: 48px;
+}
+
+.links ul {
+  margin-left: 0;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.links a:hover {
+  text-decoration: none;
+}
+
+.about-me {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+[class*="span"] {
+  margin-left: 40px;
 }

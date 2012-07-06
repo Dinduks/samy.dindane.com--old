@@ -46,6 +46,8 @@ $(document).ready(function() {
       $('.email-me').html(emailMe);
     }
   });
+
+  $('.about-me').vAlign();
 });
 
 (function ($) {

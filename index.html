@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Samy Dindane, PHP/Ruby developer</title>
+  <meta name="keywords" content="samy dindane, dindane, dinduks, web developer, php, ruby, symfony2, ruby on rails, mysql, mongodb">
+  <meta name="description" content="Personal homepage of Samy Dindane">
+  <meta name="author" content="Samy Dindane, PHP/Ruby developer">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27318576-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="page-header">
+        <h1>
+          Samy Dindane <small>PHP/Ruby developer</small>
+        </h1>
+        <div id="headerLinks">
+          <a href="http://www.dinduks.com/" class="btn primary visit-blog">Visit my blog</a>
+          <a href="mailto:samy@dindane.com" class="btn primary email-me">Email me</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span7 about-me">
+            <p>Die-hard geek, passionate about programming, Web development as well as TDD. <br />
+              Intern PHP developer at <a href="http://sensiolabs.com/">SensioLabs</a> and Ruby enthusiast. <br />
+            I <a href="http://github.com/dinduks">code</a>, <a href="http://twitter.com/dinduks">tweet</a>, <a href="http://dinduks.com/">write about programming</a>, and <a href="http://last.fm/user/dinduks">listen to awesome music</a>.</p>
+        </div>
+
+        <div class="span3">
+          <div class="so-flair">
+            <a href="http://stackoverflow.com/users/604041/samy-dindane">
+              <img src="http://stackoverflow.com/users/flair/604041.png?theme=clean" width="208" height="58" alt="profile for Samy Dindane at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Samy Dindane at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+            </a>
+          </div>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="http://www.doyoubuzz.com/samy-dindane">
+                  <img src="./images/icons/doyoubuzz-big.png" alt="Resumé" />
+                </a>
+                <a href="http://www.linkedin.com/in/samydindane">
+                  <img src="./images/icons/linkedin-big.png" alt="LinkedIn" />
+                </a>
+                <a href="http://github.com/dinduks">
+                  <img src="./images/icons/github-big.jpg" alt="GitHub" />
+                </a>
+                <a href="http://twitter.com/dinduks">
+                  <img src="./images/icons/twitter-big.png" alt="Twitter" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Samy Dindane
+        ©
+        1992 - 2012
+        <br>
+      </p>
+    </footer>
+  </div>
+
+  <div id="player"></div>
+
+  <div id="scripts">
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <script src="http://www.youtube.com/player_api" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(window).konami(function() {
+        $('#player').css('z-index', '1');
+        new YT.Player('player', {
+          videoId: 'QH2-TGUlwu4',
+          playerVars: { 'autoplay': 1, 'controls': 0 }
+        });
+      });
+    </script>
+  </div>
+</body>
+</html>
