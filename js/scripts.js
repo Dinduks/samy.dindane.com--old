@@ -35,10 +35,6 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
 })(jQuery);
 
 $(document).ready(function() {
-  if (window.location.hash == '#alternance') {
-    $('.coop').slideDown();
-  }
-
   emailMe   = $('.email-me').html();
   visitBlog = $('.visit-blog').html();
 
@@ -78,3 +74,4 @@ $(window).konami(function() {
     playerVars: { 'autoplay': 1, 'controls': 0 }
   });
 });
+
