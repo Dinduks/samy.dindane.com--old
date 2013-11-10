@@ -36,13 +36,6 @@ body {
   padding-top: 44px;
 }
 
-.links-list ul li {
-  padding-left: 20px;
-  margin-bottom: 3px;
-  background-repeat: no-repeat;
-  background-position: 0 1px;
-}
-
 .page-header h1 {
   float: left;
 }
