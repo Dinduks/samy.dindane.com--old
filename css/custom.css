@@ -58,8 +58,7 @@ body {
 
 .links {
   width: 240px;
-  margin: auto;
-  margin-top: 10px;
+  margin: 10px auto auto 4px;
 }
 
 .links img {
@@ -73,7 +72,6 @@ body {
 
 .links li {
   list-style-type: none;
-  text-align: center;
 }
 
 .links a:hover {
