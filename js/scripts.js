@@ -12,26 +12,6 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
       $(this).css('margin-top', mh);
     });
   };
-
-  /**
-  * This function is from the Konami Code Plugin
-  * http://www.gethifi.com/blog/konami-code-jquery-plugin-pointlessly-easy
-  */
-  $.fn.konami = function(callback, code) {
-    if(code == undefined)
-      code = "38,38,40,40,37,39,37,39,66,65";
-
-    return this.each(function() {
-      var kkeys = [];
-      $(this).keydown(function(e) {
-        kkeys.push(e.keyCode);
-        if (kkeys.toString().indexOf(code) >= 0) {
-          $(this).unbind('keydown', arguments.callee);
-          callback(e);
-        }
-      });
-    });
-  }
 })(jQuery);
 
 $(document).ready(function() {
@@ -66,12 +46,3 @@ $(document).ready(function() {
 
   $('.about-me').vAlign();
 });
-
-$(window).konami(function() {
-  $('#player').css('z-index', '1');
-  new YT.Player('player', {
-    videoId: 'QH2-TGUlwu4',
-    playerVars: { 'autoplay': 1, 'controls': 0 }
-  });
-});
-
